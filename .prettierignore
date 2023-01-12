@@ -1,0 +1,17 @@
+# next.js
+/.next/
+/out/
+build
+dist
+out
+public
+
+# dependencies
+/node_modules
+.vscode
+.eslintrc.json
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
