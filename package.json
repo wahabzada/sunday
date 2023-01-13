@@ -11,6 +11,13 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
+
+  "husky": {
+    "hooks":{
+      "pre-commit": "npm run lint && npm run check-format"
+    }
+
+  },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@types/node": "18.11.9",
