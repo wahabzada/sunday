@@ -11,9 +11,13 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "husky": {
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  },
+
+  "husky":{
     "hooks":{
-      "pre-commit": "npm run lint && npm run format && npm run add ."
+      "pre-commit": "npm run lint && npm check-format"
     }
 
   },
@@ -40,6 +44,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
     "postcss": "^8.4.19",
     "prettier": "^2.7.1"
   }
