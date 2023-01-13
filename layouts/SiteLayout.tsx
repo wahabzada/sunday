@@ -3,14 +3,16 @@ import Head from "next/head"
 // components
 import { LayoutProps } from "./Layout.types"
 
-export const SiteLayout: React.FC<LayoutProps> = ({ children }) => {
+export const SiteLayout: React.FC<LayoutProps> = ({ children     }) => {
   let now = new Date()
   const getCurrentYear = now.getFullYear()
+
+
 
   return (
     <>
       <Head>
-        <title>App name</title>
+        <title>Sunday | Web app starter kit</title>
         <meta
           name="description"
           content="Foster creativity and innovation in your team - away from all kinds of
