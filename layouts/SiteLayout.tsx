@@ -7,10 +7,6 @@ export const SiteLayout: React.FC<LayoutProps> = ({ children }) => {
   let now = new Date()
   const getCurrentYear = now.getFullYear()
 
-  console.log("log...")
-
-  
-
   return (
     <>
       <Head>
