@@ -12,14 +12,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
-  },
-
-  "husky":{
-    "hooks":{
-      "pre-commit": "npm run lint && npm check-format"
-    }
-
+    "*.ts": ["eslint --cache --fix", "format"]
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
