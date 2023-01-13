@@ -23,17 +23,6 @@ export default function Home() {
         <p className="mb-10 text-lg text-gray-600 sm:text-center">
           All configured - Good luck building your next amazing app.
         </p>
-
-        <div className="flex sm:justify-center">
-          <Button
-            label={"Get started"}
-            variant="contained"
-            type="info"
-            onClick={() => alert("Let's go!!!")}
-            size="large"
-            arrow
-          />
-        </div>
       </div>
     </SiteLayout>
   )
