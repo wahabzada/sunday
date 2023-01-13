@@ -12,7 +12,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.ts, *.tsx": ["npm run lint", "npm run format"]
+    "*.ts": ["npm run lint", "npm run format"],
+    "*.tsx": ["npm run lint", "npm run format"]
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
