@@ -39,13 +39,11 @@ export const SiteLayout: React.FC<LayoutProps> = ({ children }) => {
         <meta name="theme-color" content="#ffffff" />
       </Head>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <header>
-        
-        </header>
+        <header></header>
         <main>{children}</main>
         <footer className="mt-20">
           <p className="text-gray-600 sm:text-center text-xs">
-            © {getCurrentYear} app
+            © {getCurrentYear} Sunday
           </p>
         </footer>
       </div>
