@@ -15,3 +15,7 @@ public
 *.tsbuildinfo
 next-env.d.ts
 
+# config files
+.prettierrc
+package.json
+
