@@ -2,7 +2,6 @@ import Head from "next/head"
 
 // components
 import { SiteLayout } from "layouts/SiteLayout"
-import { Button } from "components/button/Button"
 
 export default function Home() {
   return (
