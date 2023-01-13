@@ -12,7 +12,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.ts": ["eslint --cache --fix", "format"]
+    "*.ts, *.tsx": ["npm run lint", "npm run format"]
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
