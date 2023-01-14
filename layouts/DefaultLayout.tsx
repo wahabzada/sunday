@@ -3,7 +3,7 @@ import Head from "next/head"
 // components
 import { LayoutProps } from "./Layout.types"
 
-export const SiteLayout: React.FC<LayoutProps> = ({ children }) => {
+export const DefaultLayout: React.FC<LayoutProps> = ({ children }) => {
   let now = new Date()
   const getCurrentYear = now.getFullYear()
 
