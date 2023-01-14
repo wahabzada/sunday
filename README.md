@@ -1,7 +1,6 @@
 Want to build an app using [Next.js](https://nextjs.org/)? 
 
-Well you don't have to install and configure all the usuall dependencies. Use this boilerplate project with the following tools and libraries already configured for you.
-
+Well you don't have to install and configure all the usuall dependencies. Use this boilerplate project and start building your app right away 🚀 
 ## What's included
 
 - [Typescript v4.8](https://www.typescriptlang.org/)
@@ -13,10 +12,17 @@ Well you don't have to install and configure all the usuall dependencies. Use th
 - [Husky v8.0](https://typicode.github.io/husky/#/)
 
 
-## Get started
+## Run the project
 
 ```bash
 npm run dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Build the project
+
+```bash
+npm run build
+```
+
+
