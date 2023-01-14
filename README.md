@@ -1,6 +1,6 @@
 Want to build an app using [Next.js](https://nextjs.org/)? 
 
-Well you don't have to install and configure all the usuall dependencies. Use this boilerplate project and start building your app right away 🚀 
+Well you don't have to install and configure all the usuall dependencies. Use this boilerplate project and start 🚀 building your app right away 
 ## What's included
 
 - [Typescript v4.8](https://www.typescriptlang.org/)
@@ -11,16 +11,28 @@ Well you don't have to install and configure all the usuall dependencies. Use th
 - [Prettier v2.7](https://prettier.io/)
 - [Husky v8.0](https://typicode.github.io/husky/#/)
 
+## Configuration
 
-## Run the project
 
+
+## Get started
+
+1. Install the dependencies
+```bash
+npm install
+```
+
+2. Run the project
 ```bash
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Build the project
+Please note:
+You may need to update the tailwind.config.js include the paths to your new (.ts, .tsx) files for Tailwind to work when running the app in development environment. 
 
+
+## Build the project
 ```bash
 npm run build
 ```
