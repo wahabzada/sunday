@@ -1,6 +1,6 @@
 Want to build an app using [Next.js](https://nextjs.org/)? 
 
-Well you don't have to install and configure all the usuall dependencies. Use this boilerplate project and start 🚀 building your app right away 
+Well you don't have to install and configure all the usuall dependencies. Use this boilerplate project and start 🚀 building your app right away. 
 ## What's included
 
 - [Typescript v4.8](https://www.typescriptlang.org/)
