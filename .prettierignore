@@ -19,3 +19,6 @@ next-env.d.ts
 .prettierrc
 package.json
 
+# readme
+README.md
+

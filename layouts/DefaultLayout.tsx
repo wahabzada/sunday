@@ -10,10 +10,10 @@ export const DefaultLayout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Sunday | A boilerplate for modern web apps</title>
+        <title>Sunday | A React Boilerplate</title>
         <meta
           name="description"
-          content="Sunday is a boilerplate project for modern web apps"
+          content="Sunday is a react boilerplate project for modern web apps"
         />
         <link
           rel="apple-touch-icon"

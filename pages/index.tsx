@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <DefaultLayout>
       <Head>
-        <title>Sunday | A boilerplate for modern web apps</title>
+        <title>Sunday | A React Boilerplate</title>
         <meta
           name="description"
           content="Sunday is a boilerplate project for modern web apps"
@@ -19,7 +19,7 @@ export default function Home() {
           Sunday
         </h1>
         <p className="mb-10 text-lg text-gray-600 sm:text-center">
-          A boilerplate for modern web apps
+          A React b`oilerplate project for modern web apps
         </p>
       </div>
     </DefaultLayout>
