@@ -19,7 +19,7 @@ export default function Home() {
           Sunday
         </h1>
         <p className="mb-10 text-lg text-gray-600 sm:text-center">
-          A React b`oilerplate project for modern web apps
+          A React boilerplate project for modern web apps
         </p>
       </div>
     </DefaultLayout>
