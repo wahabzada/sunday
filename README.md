@@ -1,11 +1,10 @@
 Want to build an app using [Next.js](https://nextjs.org/)? 
 
-Well you don't have to install and configure all the usuall dependencies. Use this boilerplate project and start 🚀 building your app right away. 
+Well you don't have to install and configure all the usual dependencies. Use this boilerplate project and start 🚀 building your app right away. 
 ## What's included
 
-- [Typescript v4.8](https://www.typescriptlang.org/)
 - [React v18.2](https://reactjs.org/)
-- [Recoil v0.7](https://recoiljs.org/)
+- [Typescript v4.8](https://www.typescriptlang.org/)
 - [Tailwind v3.2](https://tailwindcss.com/)
 - [Eslint v8.27](https://eslint.org/)
 - [Prettier v2.7](https://prettier.io/)
